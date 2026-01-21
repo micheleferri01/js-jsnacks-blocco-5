@@ -6,3 +6,8 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+people.forEach((person) => console.log(person.name));
+
+// soluzione con scomposizione dell'oggetto
+people.forEach(({name}) => console.log(name));
